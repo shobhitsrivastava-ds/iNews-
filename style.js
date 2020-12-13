@@ -5,7 +5,7 @@ mynews= document.getElementById('mynews_parent');
 let api_key= "c12dfa04f8464ad4910e854ff2af53d1";
 const xhr= new XMLHttpRequest();
 
-xhr.open('GET', 'https://newsapi.org/v2/top-headlines?country=in&apiKey=c12dfa04f8464ad4910e854ff2af53d1', true);
+xhr.open('GET', 'http://newsapi.org/v2/top-headlines?country=in&apiKey=c12dfa04f8464ad4910e854ff2af53d1', true);
 
 console.log(api_key);
 xhr.onload= function()
